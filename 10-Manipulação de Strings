@@ -13,6 +13,7 @@ lower() - Transforma tudo em minúsculo
 find () - Procura algo na String
 strip() - Remove espaços antes e no fim da palavra
 split() - Separa uma string em substrings, transformando-as em uma lista.
+join() - Faz a junção de strings
 
 ---------------------------------------------------------------------------------------------------------------
 String = 'Olá Mundão!'
@@ -113,3 +114,14 @@ String_06 ='Loja 1 vendou 10, Loja 2 vendou 20, Loja 3 vendou 30 '
 print( String_06.split(',') )
 
 output: 'Loja 1  vendeu 10', 'Loja 2 vendeu 20', 'Loja 3 vendeu 30' (Os transformou em 3 "subcamadas")
+---------------------------------------------------------------------------------------------------------------
+
+JOIN:
+# Faz a junção de strings
+
+frase = Curso em Vídeo Python #aula09ManipulandoTexto
+
+'-'.join(frase) #pode usar apenas o espaço em branco, para isso deixar o ' ' vazio.
+
+output:
+Curso-em-Vídeo-Python

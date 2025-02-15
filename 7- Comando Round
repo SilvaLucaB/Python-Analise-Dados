@@ -1,0 +1,17 @@
+ Quando trabalhamos com números flutuantes, podemos arredondar o valor usando um comando nativo do Python
+round(valor, número de casas)
+
+# Metodo round, arredonda valores (define quantos números de casas decimais haverá na variável):
+
+Valor_Exemplo = 12.123456789
+
+print( round( Valor_Exemplo, 1 ) )
+print( round( Valor_Exemplo, 2 ) )
+print( round( Valor_Exemplo, 3 ) )
+print( round( Valor_Exemplo, 5 ) )
+-----------------------------------------------------------------------------------
+output: 
+12.1
+12.12
+12.123
+12.12346

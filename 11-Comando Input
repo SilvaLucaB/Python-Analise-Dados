@@ -1,0 +1,15 @@
+A função INPUT() recebe um dado que será digitado pelo usuário.
+
+Nome = input('Qual seu nome? ')
+Idade = input('Quantos anos você tem? ')
+
+print('Seu nome é:', Nome)
+print('Sua idade:', Idade)
+
+output: Qual seu nome? ...
+Luca
+Quantos anos você tem? ..
+21
+
+Seu nome é: Luca
+Sua idade: 21

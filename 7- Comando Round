@@ -1,7 +1,5 @@
- Quando trabalhamos com números flutuantes, podemos arredondar o valor usando um comando nativo do Python
+ Quando trabalhamos com números flutuantes, podemos definir o valor de casas decimais usando um comando nativo do Python
 round(valor, número de casas)
-
-# Metodo round, arredonda valores (define quantos números de casas decimais haverá na variável):
 
 Valor_Exemplo = 12.123456789
 

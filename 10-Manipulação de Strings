@@ -100,6 +100,10 @@ String_05 =' Olá Mundão! '
 print( String_05.strip() )
 
 output: Olá Mundão!
+
+** Podendo também utilizar o R ou L para direcionar a remoção dos espaços a esquerda ( Left ) ou direita ( Right ):
+String_05.lstrip() - removerá apenas os espaços a esquerda
+String_05.rstrip() - removerá apenas os espaços a direita
 ---------------------------------------------------------------------------------------------------------------
 
 SPLIT: 

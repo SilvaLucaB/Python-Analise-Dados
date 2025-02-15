@@ -5,6 +5,7 @@ startswith() - Verifica uma condição no início da variável
 endswith() - Verifica uma condição no final da variável
 count() - Verifica a quantidade de itens específicos que eu definir
 capitalize() - Transforma a PRIMEIRA letra da primeira palavra em maiúscula
+title()- Transforma TODAS as primeiras letras em maiúscuila
 isdigit() - Verifica se uma string só possui números
 isalnum() - Verifica se uma string é alfanumérica (só possui letras e números)
 upper() - Transforma tudo em maiúsculo

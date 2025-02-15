@@ -1,0 +1,17 @@
+A função len() retorna a quantidade de elementos de qualquer lista em python. 
+
+Lista = [1, 2, 3, 4, 5]
+Dicionario = { 'Nome':'Luca', 'Idade':21, 'solteiro':False }
+Tupla = (10, 20)
+String = 'Olá Mundão!'
+
+print( len(Lista) )
+print( len(Dicionario) )
+print( len(Tupla) )
+print( len(String) )
+-------------------------------------------------------
+output:
+5
+3
+2
+11

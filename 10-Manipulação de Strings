@@ -12,7 +12,7 @@ upper() - Transforma tudo em maiúsculo
 lower() - Transforma tudo em minúsculo
 find () - Procura algo na String
 strip() - Remove espaços antes e no fim da palavra
-split()
+split() - Separa uma string em substrings, transformando-as em uma lista.
 
 ---------------------------------------------------------------------------------------------------------------
 String = 'Olá Mundão!'

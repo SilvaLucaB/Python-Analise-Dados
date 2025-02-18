@@ -1,0 +1,16 @@
+Os operadores lógicos são usados ​​para combinar instruções condicionais:
+
+1- AND (Retorna True se ambas as declarações forem verdadeiras) = "e"
+2- OR (Retorna True se uma das declarações for verdadeira) = "ou"
+3- NOT (Negação) = "não" 
+
+print('8 é maior que 7 e 7 maior que 8:', 8 > 7 and 7 > 8 )
+print('8 é maior que 7 e 7 menor que 8:', 8 > 7 and 7 < 8 )
+print('8 é maior que 7 ou 7 menor que 8:', 8 == 7 or 7 == 8 )
+print('8 é maior que 7 ou 7 menor que 8:', 8 > 7 or 7 > 8 )
+----------------------------------------------------------------------
+output: 
+8 é maior que 7 e 7 maior que 8: False
+8 é maior que 7 e 7 menor que 8: True
+8 é maior que 7 ou 7 menor que 8: False
+8 é maior que 7 ou 7 menor que 8: True

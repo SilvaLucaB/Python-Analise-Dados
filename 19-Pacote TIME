@@ -1,0 +1,29 @@
+Este módulo fornece várias funções relacionadas ao tempo
+
+# Importar a Lib
+import time
+
+print('Esse print foi rápido!')
+time.sleep(2.5)
+print('Esse print aconteceu depois de 2.5 segundos \n')
+
+# Capturar o local agora
+Agora = time.localtime()
+print( type(Agora) )
+print( Agora )
+print( time.strftime('%m/%d/%Y, %H:%M:%S', Agora ), '\n' )
+
+# Converter uma string para time
+Time_Texto = '21 June, 2018'
+Conversao = time.strptime(Time_Texto, '%d %B, %Y')
+print(Conversao)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+OUTPUT: 
+Esse print foi rápido!
+Esse print aconteceu depois de 2.5 segundos 
+
+<class 'time.struct_time'>
+time.struct_time(tm_year=2022, tm_mon=3, tm_mday=15, tm_hour=11, tm_min=3, tm_sec=36, tm_wday=1, tm_yday=74, tm_isdst=0)
+03/15/2022, 11:03:36 
+
+time.struct_time(tm_year=2018, tm_mon=6, tm_mday=21, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=172, tm_isdst=-1)

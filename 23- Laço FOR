@@ -1,0 +1,137 @@
+O loop For do Python é usado para travessia seqüencial, ou seja, é usado para iterar sobre um iterável como string, tupla, lista, etc. Ele se enquadra na categoria de iteração definida .
+Iterações definidas significam que o número de repetições é especificado explicitamente com antecedência.
+
+Exemplos: 
+
+for QualquerCoisaQueVoceQuiser in range(10):
+  print( QualquerCoisaQueVoceQuiser ** 2  ) 
+  ------------------------------------------------------------------------------------------------------
+  output: 
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81
+------------------------------------------------------------------------------------------------------
+Lista_Paises = ['Brasil', 'Argentina', 'Uruguai', 'Chile', 'Paraguai', 'Bolivia', 'Equador', 
+'Colombia', 'Suriname', 'Guiane', 'Goianai France']
+
+for Loop in Lista_Paises:
+  print( Loop )
+------------------------------------------------------------------------------------------------------
+output: 
+Brasil
+Argentina
+Uruguai
+Chile
+Paraguai
+Bolivia
+Equador
+Colombia
+Suriname
+Guiane
+Goianai France
+------------------------------------------------------------------------------------------------------
+# For + Lista
+Lista_Paises = ['Brasil', 'Argentina', 'Uruguai', 'Chile', 'Paraguai', 'Bolivia', 
+                'Equador', 'Colombia', 'Suriname, Guiane, Goianai France']
+
+for Loop in range( len(Lista_Paises) ):
+  print( Lista_Paises[Loop] )
+------------------------------------------------------------------------------------------------------
+output:  
+Brasil
+Argentina
+Uruguai
+Chile
+Paraguai
+Bolivia
+Equador
+Colombia
+Suriname, Guiane, Goianai France
+------------------------------------------------------------------------------------------------------
+# For + Lista + IF + enumerate
+for Posicao, P in enumerate( Lista_Paises ):
+  print( Posicao / 4 , P )
+------------------------------------------------------------------------------------------------------
+output:  
+0.0 Brasil
+0.25 Argentina
+0.5 Uruguai
+0.75 Chile
+1.0 Paraguai
+1.25 Bolivia
+1.5 Equador
+1.75 Colombia
+2.0 Suriname, Guiane, Goianai France
+------------------------------------------------------------------------------------------------------
+# for + LISTa + IF + RANGE
+Lista_Numerica = [ Numero for Numero in range(1, 100, 5) ]
+Armazenar = []
+
+for x in Lista_Numerica:
+
+  if x % 2 == 0:
+    Armazenar.append( x )
+
+print( Armazenar )
+
+from pandas import DataFrame
+print( DataFrame(Armazenar) )
+------------------------------------------------------------------------------------------------------
+output:
+[6, 16, 26, 36, 46, 56, 66, 76, 86, 96]
+    0
+0   6
+1  16
+2  26
+3  36
+4  46
+5  56
+6  66
+7  76
+8  86
+9  96
+------------------------------------------------------------------------------------------------------
+# For + Lista + Dicionario
+
+Lista = [ 'Brasil', 'Argentina', 'Uruaguai', 'Paraguai' ]
+
+Dicionario = {
+    'Brasil' : 'Real',
+    'Argentina' : 'Peso ARG',
+    'Uruaguai' : 'Peso URU',
+    'Paraguai' : 'Guarany'
+}
+
+for Paises in Lista:
+
+  if Paises == 'Brasil':
+    print( f'Moeda do {Paises} é { Dicionario[Paises] }' )
+    print('Mooeda do', Paises, 'é', Dicionario[Paises] )
+    print('Mooeda do ' + str (Paises) + ' é ' + str(Dicionario[Paises] ) )
+  else:
+    pass
+------------------------------------------------------------------------------------------------------
+output: 
+Moeda do Brasil é Real
+Mooeda do Brasil é Real
+Mooeda do Brasil é Real
+
+
+
+
+
+
+
+
+
+
+
+
+

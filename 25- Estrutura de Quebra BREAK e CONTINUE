@@ -1,0 +1,67 @@
+O uso de loops no Python automatiza e repete as tarefas de maneira eficiente. Mas, às vezes, pode surgir uma condição em que você deseja sair completamente do loop, pular uma iteração ou ignorar essa condição.
+Isso pode ser feito por instruções de controle de loop . As instruções de controle de loop alteram a execução de sua sequência normal. Quando a execução sai de um escopo, todos os objetos automáticos que foram criados
+nesse escopo são destruídos. Python suporta as seguintes instruções de controle( BREAK e CONTINUE ).
+Exemplo: 
+# For + Lista + IF + Break
+Lista_Paises = ['Brasil', 'Argentina', 'Uruguai', 'Chile', 'Paraguai', 'Bolivia', 
+                'Equador', 'Colombia', 'Suriname, Guiane, Goianai France']
+Loop = 0
+
+for P in Lista_Paises:
+
+  if P == 'Chile':
+    print('Chegou')
+    break
+
+  else:
+    pass
+
+  Loop += 1
+  print( Loop )
+--------------------------------------------------------------------------------------------
+output:
+1
+2
+3
+Chegou
+--------------------------------------------------------------------------------------------
+for loop in range(0,11):
+
+  if loop == 5:
+    continue
+    print("Cheguei aqui mas fui ignorado")
+
+  print(loop)
+--------------------------------------------------------------------------------------------
+output:
+0
+1
+2
+3
+4
+6
+7
+8
+9
+10
+
+--------------------------------------------------------------------------------------------
+
+for loop in range(0,11):
+
+  if loop == 5:
+    break
+    print("Cheguei aqui mas fui ignorado")
+
+  print(loop)
+--------------------------------------------------------------------------------------------
+output:
+0
+1
+2
+3
+4
+
+
+
+

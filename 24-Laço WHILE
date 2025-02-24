@@ -1,5 +1,6 @@
-Python While Loop é usado para executar um bloco de instruções repetidamente até que uma determinada condição seja satisfeita. E quando a condição se torna falsa, a linha imediatamente após o loop no programa é executada. 
-While loop se enquadra na categoria de iteração indefinida . A iteração indefinida significa que o número de vezes que o loop é executado não é especificado explicitamente com antecedência.
+Python While Loop é usado para executar um bloco de instruções repetidamente até que uma determinada condição seja satisfeita. E quando a condição se torna falsa, a linha imediatamente após
+o loop no programa é executada. While loop se enquadra na categoria de iteração indefinida . A iteração indefinida significa que o número de vezes que o loop é executado não é especificado 
+explicitamente com antecedência.
 
 Exemplos: 
 Loop = 0
@@ -71,24 +72,6 @@ while True:
     print(Jogador1, '-', Jogador2)
 -------------------------------------------------------------------------
 output: 
-
-# While True
-# Joginho
-import random
-
-while True:
-
-  Jogador1 = random.randint(0, 6)
-  Jogador2 = random.randint(5, 10)
-
-  if Jogador1 > Jogador2:
-    print(Jogador1, '-', Jogador2, 'FINALMENTE !!!!!!!!!!!')
-    break
-
-  else:
-    print(Jogador1, '-', Jogador2)
--------------------------------------------------------------------------
-output: 
 5 - 10
 6 - 8
 6 - 10
@@ -145,36 +128,3 @@ output:
 5 - 7
 2 - 9
 6 - 5 FINALMENTE !!!!!!!!!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

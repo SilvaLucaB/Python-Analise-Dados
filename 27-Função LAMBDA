@@ -1,4 +1,4 @@
-Uma função lambda é uma pequena função anônima.Ela pode receber qualquer número de argumentos, mas pode ter apenas uma expressão. Usada geralmente para somar valores
+Uma função lambda é uma pequena função anônima.Ela pode receber qualquer número de argumentos, mas pode ter apenas uma expressão. É uma forma mais simplificada das funções comuns
 Exemplos:
 
 Funcao = lambda valor: valor + 10

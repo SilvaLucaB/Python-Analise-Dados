@@ -3,6 +3,8 @@ O except permite que você lide com o erro.
 O else permite executar código quando não há erro.
 O finally permite que você execute código, independentemente do resultado dos blocos try e except.
 
+#Faz comq ue o programa continue sendo executado mesmo que tenha acontecido algum erro.... Try "if" , except "else": 
+
 exemplo:
 
 # 
